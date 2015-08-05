@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		920386471B43C91700A91EC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 920386461B43C91700A91EC3 /* main.m */; };
+		9203864A1B43C91700A91EC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 920386491B43C91700A91EC3 /* AppDelegate.m */; };
+		9203864D1B43C91700A91EC3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9203864C1B43C91700A91EC3 /* ViewController.m */; };
+		920386501B43C91700A91EC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9203864E1B43C91700A91EC3 /* Main.storyboard */; };
+		920386521B43C91700A91EC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 920386511B43C91700A91EC3 /* Images.xcassets */; };
+		920386551B43C91700A91EC3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 920386531B43C91700A91EC3 /* LaunchScreen.xib */; };
+		9203866C1B43CAE000A91EC3 /* SendingIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9203866B1B43CAE000A91EC3 /* SendingIndicatorView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		920386411B43C91700A91EC3 /* iMessageSendingAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMessageSendingAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		920386451B43C91700A91EC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		920386461B43C91700A91EC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		920386481B43C91700A91EC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		920386491B43C91700A91EC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9203864B1B43C91700A91EC3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9203864C1B43C91700A91EC3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9203864F1B43C91700A91EC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		920386511B43C91700A91EC3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		920386541B43C91700A91EC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9203866A1B43CAE000A91EC3 /* SendingIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendingIndicatorView.h; sourceTree = "<group>"; };
+		9203866B1B43CAE000A91EC3 /* SendingIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendingIndicatorView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9203863E1B43C91700A91EC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		920386381B43C91700A91EC3 = {
+			isa = PBXGroup;
+			children = (
+				920386431B43C91700A91EC3 /* iMessageSendingAnimation */,
+				920386421B43C91700A91EC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		920386421B43C91700A91EC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				920386411B43C91700A91EC3 /* iMessageSendingAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		920386431B43C91700A91EC3 /* iMessageSendingAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				920386481B43C91700A91EC3 /* AppDelegate.h */,
+				920386491B43C91700A91EC3 /* AppDelegate.m */,
+				9203864B1B43C91700A91EC3 /* ViewController.h */,
+				9203864C1B43C91700A91EC3 /* ViewController.m */,
+				9203866A1B43CAE000A91EC3 /* SendingIndicatorView.h */,
+				9203866B1B43CAE000A91EC3 /* SendingIndicatorView.m */,
+				9203864E1B43C91700A91EC3 /* Main.storyboard */,
+				920386511B43C91700A91EC3 /* Images.xcassets */,
+				920386531B43C91700A91EC3 /* LaunchScreen.xib */,
+				920386441B43C91700A91EC3 /* Supporting Files */,
+			);
+			path = iMessageSendingAnimation;
+			sourceTree = "<group>";
+		};
+		920386441B43C91700A91EC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				920386451B43C91700A91EC3 /* Info.plist */,
+				920386461B43C91700A91EC3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		920386401B43C91700A91EC3 /* iMessageSendingAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 920386641B43C91700A91EC3 /* Build configuration list for PBXNativeTarget "iMessageSendingAnimation" */;
+			buildPhases = (
+				9203863D1B43C91700A91EC3 /* Sources */,
+				9203863E1B43C91700A91EC3 /* Frameworks */,
+				9203863F1B43C91700A91EC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMessageSendingAnimation;
+			productName = iMessageSendingAnimation;
+			productReference = 920386411B43C91700A91EC3 /* iMessageSendingAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		920386391B43C91700A91EC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Org;
+				TargetAttributes = {
+					920386401B43C91700A91EC3 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 9203863C1B43C91700A91EC3 /* Build configuration list for PBXProject "iMessageSendingAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 920386381B43C91700A91EC3;
+			productRefGroup = 920386421B43C91700A91EC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				920386401B43C91700A91EC3 /* iMessageSendingAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9203863F1B43C91700A91EC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920386501B43C91700A91EC3 /* Main.storyboard in Resources */,
+				920386551B43C91700A91EC3 /* LaunchScreen.xib in Resources */,
+				920386521B43C91700A91EC3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9203863D1B43C91700A91EC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9203864D1B43C91700A91EC3 /* ViewController.m in Sources */,
+				9203866C1B43CAE000A91EC3 /* SendingIndicatorView.m in Sources */,
+				9203864A1B43C91700A91EC3 /* AppDelegate.m in Sources */,
+				920386471B43C91700A91EC3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9203864E1B43C91700A91EC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9203864F1B43C91700A91EC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		920386531B43C91700A91EC3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				920386541B43C91700A91EC3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		920386621B43C91700A91EC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		920386631B43C91700A91EC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		920386651B43C91700A91EC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iMessageSendingAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		920386661B43C91700A91EC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iMessageSendingAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9203863C1B43C91700A91EC3 /* Build configuration list for PBXProject "iMessageSendingAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				920386621B43C91700A91EC3 /* Debug */,
+				920386631B43C91700A91EC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		920386641B43C91700A91EC3 /* Build configuration list for PBXNativeTarget "iMessageSendingAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				920386651B43C91700A91EC3 /* Debug */,
+				920386661B43C91700A91EC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 920386391B43C91700A91EC3 /* Project object */;
+}
