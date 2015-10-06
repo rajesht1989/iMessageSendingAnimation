@@ -41,6 +41,7 @@
 
 - (void)startAnimating
 {
+    [[UIApplication sharedApplication] beginIgnoringInteractionEvents];
     [self setTimeIntervalForAnimation:.01];
 }
 
@@ -70,6 +71,7 @@
 {
     shouldStopAnimation = YES;
     [self setTimeIntervalForAnimation:.001];
+    [[UIApplication sharedApplication] endIgnoringInteractionEvents];
 }
 
 - (void)setTimeIntervalForAnimation:(NSTimeInterval)interval
